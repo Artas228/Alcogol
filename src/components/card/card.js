@@ -1,12 +1,15 @@
 import React from "react"
 import classes from './card.module.css'
+import MainPage from './../../pages/MainPage.jsx'
 
 
 const Card = (props) => {
+    console.log(props)
     return (
         <div className={classes.container}>
+            
             <div className={classes.img_container}>
-                <img
+                <img className={classes.img_conainer}
                 src={props.pic}
                 alt='Dress'/>
                 <span>{props.price+" сом"}</span>
