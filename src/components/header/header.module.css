@@ -19,6 +19,7 @@
 .img{
     height: 30px;
     width: 30px;
+    display: block;
     }
 
 .img>img{
@@ -29,6 +30,7 @@
 .img__logotipe{
     height: 40px;
     width: 40px;
+    display: block;
 }
 
 .img__logotipe>img{
